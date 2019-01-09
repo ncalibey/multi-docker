@@ -1,4 +1,0 @@
-FROM nginx
-
-# overwrites default `default.conf` file with ours
-COPY ./default.conf /etc/nginx/conf.d/default.conf
